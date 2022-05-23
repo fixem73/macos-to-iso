@@ -6,7 +6,7 @@ sudo rm -rf /tmp/Install macOS Monterey.dmg
 echo "✅ Cleanup complete"
 
 echo "📀 Creating temporary .dmg file. It might take a minute or two..."
-hdiutil create -o /tmp/Install macOS Monterey -size 13000m -layout SPUD -fs HFS+J
+hdiutil create -o /tmp/Install macOS Monterey -size 15000m -layout SPUD -fs HFS+J
 echo "✅ Creation complete"
 
 echo "🔮 Mounting and doing magic to the volumes. It might take a while..."
