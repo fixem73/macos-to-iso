@@ -11,7 +11,7 @@ echo "✅ Creation complete"
 
 echo "🔮 Mounting and doing magic to the volumes. It might take a while..."
 hdiutil attach /tmp/Install macOS Monterey.dmg -noverify -mountpoint /Volumes/install_build
-yes Y | sudo /Applications/Install\ macOS\ Install macOS Monterey.app/Contents/Resources/createinstallmedia --volume /Volumes/install_build
+yes Y | sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstallmedia --volume /Volumes/install_build
 echo "✅ Magic complete"
 
 echo "📀 Detaching volume..."
