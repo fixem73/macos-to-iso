@@ -1,12 +1,12 @@
-# Run sudo chmod a+x BigSur_to_iso.sh
-# Run the script by typing ./BigSur_to_iso.sh in the terminal
+# Run sudo chmod a+x monterey_to_iso.sh
+# Run the script by typing ./monterey_to_iso.sh in the terminal
 echo "⚠️   During the run of this script, please don't close the terminal or press any keys!\n\n"
 echo "📀 Cleaning any of the previous fails of this script..."
 sudo rm -rf /tmp/Install macOS Monterey.dmg
 echo "✅ Cleanup complete"
 
 echo "📀 Creating temporary .dmg file. It might take a minute or two..."
-hdiutil create -o /tmp/Install macOS Monterey -size 8000m -layout SPUD -fs HFS+J
+hdiutil create -o /tmp/Install macOS Monterey -size 13000m -layout SPUD -fs HFS+J
 echo "✅ Creation complete"
 
 echo "🔮 Mounting and doing magic to the volumes. It might take a while..."
